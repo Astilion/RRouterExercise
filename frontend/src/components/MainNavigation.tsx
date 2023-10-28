@@ -11,7 +11,8 @@ function MainNavigation() {
 							to='/'
 							className={({ isActive }) =>
 								isActive ? styles.active : undefined
-							} end>
+							}
+							end>
 							Home
 						</NavLink>
 					</li>
